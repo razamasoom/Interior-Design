@@ -169,3 +169,45 @@ right: 73px;
    bottom: 85px;
    right: -100px;
 }
+
+@media (max-width: 700px) {
+    body {
+        background-repeat: repeat;
+    }
+    nav h1 {
+        font-size: 20px;
+    }
+    nav .contact * {
+        font-size: 15px;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .top {
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .bottom {
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .vertical-line, .horizontal-line {
+        display: none;
+    }
+
+    .infocard {
+        width: 150px;
+    }
+}
